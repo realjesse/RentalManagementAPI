@@ -1,0 +1,54 @@
+## Core .NET Build & Execution Artifacts
+[Bb]in/
+[Oo]bj/
+[Log]/
+[Logs]/
+
+## IDE & Editor Specific Files
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains Rider
+.idea/
+*.sln.DotSettings.user
+
+## OS-specific Files
+.DS_Store
+Thumbs.db
+
+## User Secrets & Local Environment Configuration
+# Never commit actual production secrets or appsettings.local.json
+secrets.json
+appsettings.Development.json
+*appsettings.local.json
+
+## Docker & Containerization
+.dockerignore
+# Remove the line below if you want to commit your actual Dockerfile
+# Dockerfile
+
+## Entity Framework Core (Migrations & Tools)
+*.uniqueness
+*.db
+*.db-shm
+*.db-wal
+
+## Packages & Dependencies
+# NuGet packages are restored dynamically; do not commit them
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+
+.idea/
